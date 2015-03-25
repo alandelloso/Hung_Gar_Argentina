@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+#Main Sites
+RewriteRule ^inicio?$ index.php
+RewriteRule ^hung-gar?$ hung-gar.php
+RewriteRule ^linaje?$ linaje.php
+RewriteRule ^contactanos?$ contactanos.php
+RewriteRule ^articulos?$ articulos.php

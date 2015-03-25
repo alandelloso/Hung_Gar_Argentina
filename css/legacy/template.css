@@ -1,0 +1,120 @@
+/*Header*/
+body #mainheader {
+	height: auto;
+}
+
+	body #mainheader #mainheader__hgroup {
+		margin: 85px;
+		font-size: 40pt;
+	}
+
+		body #mainheader #mainheader__hgroup .mainheader__hgroup__h1 {
+			display: inline;
+			font-size: 40pt;
+			margin-right: .2em;
+		}
+
+		body #mainheader #mainheader__hgroup .mainheader__hgroup__h2 {
+			color: #ffab00;
+			display: inline;
+			font-size: 40pt;
+			font-weight: bold;
+		}
+
+	body #mainheader #mainheader__lamlogo {
+		top: 27.5px;
+	}
+
+		body #mainheader #mainheader__lamlogo img {
+			width: 170px;
+			height: 180px;
+		}
+
+	body #mainheader #mainheader__wuhsinglogo {
+		top: 52.5px;
+	}
+
+		body #mainheader #mainheader__wuhsinglogo img {
+			width: 130px;
+			height: 130px;
+		}
+
+
+/*Navigation*/
+#mobilenavbar {
+	display: none;
+}
+
+body #mainnav {
+	background-color: #d32f2f;
+	display: block;
+	font-family: 'Montserrat',sans-serif;
+	line-height: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+	body #mainnav .mainnav__list {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+
+		body #mainnav .mainnav__list .mainnav__list__item {
+			display: inline-block;
+			position: relative;
+			overflow: hidden;
+		}
+
+			body #mainnav .mainnav__list .mainnav__list__item a {
+				color: #eee;
+				display: block;
+				padding: 1.5em;
+				text-decoration: none;
+			}
+
+			body #mainnav .mainnav__list .mainnav__list__item a:hover {
+				background-color: #ffab00;
+				color: #222;
+			}
+
+	body #mainnav .facebook {
+		position: absolute;
+		right: 0;
+		top: 0;
+		display: inline-block;
+		background-color: #3b5999;
+		margin: 0 2em 0 0;
+	}
+
+		body #mainnav .facebook a {
+			text-decoration: none;
+			color: #eee;
+			display: block;
+			padding: .5em 1em;
+			font-size: 20pt;
+		}
+
+		body #mainnav .facebook a:hover {
+			background-color: #4f79b7;
+		}
+
+
+
+/*Footer*/
+#mainfooter {
+	position: relative;
+	text-align: right;
+}
+
+	#mainfooter__figures {
+		position: absolute;
+		left: .3em;
+		top: .3em;
+	}
+
+	#mainfooter__text {
+		padding: 2em .3em;
+		text-align: right;
+
+	}

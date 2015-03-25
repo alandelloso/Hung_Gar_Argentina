@@ -1,0 +1,72 @@
+/*Vars*/
+Montserrat = 'Montserrat', sans-serif
+Raleway = 'Raleway', sans-serif
+LightText = #EEE
+DarkText = #222
+/*Color Palet*/
+MainColor = #D32F2F
+DarkColor = #C62828
+DarkestColor = #B71C1C
+BreakColor = #FFC400
+DarkBreakColor = #FFAB00
+/*Other Colors*/
+Facebook = #3B5999
+
+h1
+	text-align left
+	
+h4
+	font-size 110%
+	
+.bus 
+	width 100px
+	display inline-block
+
+.mail, .sedes
+	background-color #111
+	padding 3em 0
+
+.mail__picture
+	display inline-block
+	background-image url("../img/message-icon.png")
+	background-repeat no-repeat
+	background-size 100px
+	height 100px
+	width 100px
+	
+.sede__capital, .sede__laplata
+	text-align left
+	margin-top 2em
+	a 
+		text-decoration none
+		color DarkText
+		transition all .2s ease-out
+		&:hover
+			padding-left .3em
+			color MainColor
+	.marker
+		width 15px
+	
+.sedes__picture
+	display inline-block
+	background-image url("../img/mark-icon.png")
+	background-repeat no-repeat
+	background-size 100px
+	height 100px
+	width 100px
+
+@media (min-width: 1065px)
+	.centralcontainer
+		width 70em
+		
+	.flexme
+		display -webkit-box
+		display -moz-box
+		display -ms-flexbox
+		display -webkit-flex
+		display flex
+		justify-content space-around
+		
+	.sede__capital, .sede__laplata
+		vertical-align top 
+		width 520px

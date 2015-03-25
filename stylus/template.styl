@@ -1,0 +1,368 @@
+/*////////Font Importation////////*/
+@import url("http://fonts.googleapis.com/css?family=Montserrat")
+@import url("http://fonts.googleapis.com/css?family=Raleway")
+
+/*////////Icons Importation////////*/
+@font-face
+  font-family 'icomoon'
+  src url('../fonts/icomoon.eot?rcrh5j')
+  src url('../fonts/icomoon.eot?#iefixrcrh5j') format('embedded-opentype'),
+      url('../fonts/icomoon.woff?rcrh5j') format('woff'),
+	  url('../fonts/icomoon.ttf?rcrh5j') format('truetype'),
+	  url('../fonts/icomoon.svg?rcrh5j#icomoon') format('svg')
+  font-weight normal
+  font-style normal
+
+[class^="icon-"], [class*=" icon-"]
+  font-family 'icomoon'
+  speak none
+  font-style normal
+  font-weight normal
+  font-variant normal
+  text-transform none
+  line-height 1
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+.icon-facebook
+  &:before
+    content "\e602"
+
+.icon-left-arrow
+  &:before
+    content "\e600"
+
+.icon-menu
+  &:before
+    content "\e601"
+
+/*////////Variables Definition////////*/
+/*Text Vars*/
+Montserrat = 'Montserrat', sans-serif
+Raleway = 'Raleway', sans-serif
+LightText = #EEE
+DarkText = #222
+/*Color Palet*/
+MainColor = #D32F2F
+DarkColor = #C62828
+DarkestColor = #B71C1C
+BreakColor = #FFC400
+DarkBreakColor = #FFAB00
+/*Other Colors*/
+Facebook = #3B5999
+
+/*////////Mixins////////*/
+flexbox()
+	display -webkit-flex
+	display -webkit-box
+	display -moz-flex
+	display -ms-flexbox
+
+/*////////Mobile Styling////////*/
+body
+	background-color DarkText
+	color LightText
+	font-size 16px
+	font-family Raleway
+	
+h1 
+	color DarkBreakColor
+	font-family Montserrat
+	
+	
+h2
+	color MainColor
+	font-family Montserrat
+	
+h3 
+	color #009045
+	font-family Montserrat
+
+.blockme
+	display block
+	
+.card
+	background-color #EEE
+	box-shadow #DDD 3px 3px 0
+	padding .3em
+	margin .3em
+	color DarkText
+	
+.centerme
+	text-align center
+	
+.centralcontainer
+	padding .5em
+	max-width 70rem
+	display inline-block
+
+.highlight
+	color MainColor
+	font-weight bold
+	
+/*Main Footer*/
+#mainfooter
+	background-color DarkBreakColor
+	color DarkText
+	font-family Montserrat
+	text-align center
+	#mainfooter__figures
+		#mainfooter__figures__figure1
+			display inline-block
+			height 100px
+		#mainfooter__figures__figure2
+			display inline-block
+			height 100px
+	#mainfooter__text
+		.mainfooter__text__h3
+			color DarkText
+			font-size 1.17em
+			font-weight normal
+			margin 0
+			
+	
+/*Main Header*/
+#mainheader
+	background-color DarkColor
+	font-family Montserrat
+	height 56.7px
+	overflow hidden
+	padding .3em
+	position relative
+	text-align center
+	#mainheader__hgroup
+		display inline-block
+		.mainheader__hgroup__h1
+			color DarkBreakColor
+			font-size 1.67em
+			margin 0
+		.mainheader__hgroup__h2
+			color BreakColor
+			font-size 1em
+			font-style none
+			font-weight normal
+			margin 0
+	#mainheader__lamlogo
+		display inline-block
+		left .3em
+		position absolute
+		img
+			height 55px
+	#mainheader__wuhsinglogo
+		display inline-block
+		position absolute
+		right .3em
+		img
+			height 55px	
+			
+/*Main Navigation Hidding*/		
+#mainnav
+	display none
+	
+/*Mobile Navigation*/
+#mobilenav
+	background-color DarkestColor
+	left -16em
+	font-family Montserrat
+	position absolute
+	width 250px
+	transition all .5s ease-in
+	z-index 1
+	.mobilenav__list
+		margin 0
+		padding 0
+	.mobilenav__list__item
+		list-style none
+		position relative
+		overflow hidden
+		transition all .5s ease-out
+		a
+			color LightText
+			display block 
+			padding 1em 
+			text-decoration none
+			transition all .5s ease-out
+	
+/*Mobile Navigation Bar*/	
+#mobilenavbar
+	background-color MainColor
+	font-family Montserrat
+	padding .7em .3em .7em .3em
+	position relative
+	overflow hidden
+	text-align center
+	#menubutton
+		display inline-block
+		left 0
+		position absolute
+		text-decoration none
+		top 0
+		a
+			color LightText
+			display block
+			font-size 2em
+			padding 0.15em .5em
+			transition all .5s ease-in
+			text-decoration none
+	.facebook
+		background-color Facebook
+		border-radius 100%
+		display inline-block
+		margin 0.15em .7em 0 0 
+		position absolute
+		right 0
+		top 0
+		transition all .5s ease-out
+		a
+			color LightText	
+			display block
+			font-size 1.17em
+			font-size 20pt
+			padding .2em .5em
+			text-decoration none
+		&:hover 
+			background-color #4F79B7
+	#mobilenavbar__title
+		color LightText
+		display inline-block
+		font-size 1em
+		font-weight normal
+		margin 0
+		
+
+.ink
+  display block
+  position absolute
+  background #FFAB00
+  border-radius 100%
+  transform scale(0)
+  &.animate
+    animation ripple 0.65s linear
+    
+@keyframes ripple {
+		100% {opacity: 0; transform: scale(2.5);}
+}
+
+/*////////Tablet Styling////////*/
+@media (min-width: 845px)
+
+	/*Main Footer Tablet Adaptation*/
+	#mainfooter
+		position relative
+		text-align right
+		#mainfooter__figures
+			left .3em
+			position absolute
+			top .3em
+		#mainfooter__text
+			padding 2em .3em
+			text-align right
+			
+	/*Mobile Navigation Hide*/
+	#mobilenavbar
+		display none
+		
+	#mobilenav
+		display none
+		
+		
+	/*Main Navigation Styling*/
+	#mainnav
+		background-color MainColor
+		display block
+		font-family Montserrat
+		line-height 0
+		position relative
+		text-align center
+		.mainnav__list
+			display inline-block
+			margin 0
+			padding 0
+			text-align left
+			width 70em
+			.mainnav__list__item
+				display inline-block
+				position relative
+				overflow hidden
+				transition all .5s ease-out
+				a
+					color LightText
+					display block
+					padding 1.3em
+					text-decoration none
+					
+
+		.facebook
+			background-color Facebook
+			border-radius 100%
+			display inline-block
+			position absolute
+			right 0
+			top .1em
+			margin-right  1.5em
+			transition all .5s ease-out
+			a
+				color LightText	
+				display block
+				font-size 1.17em
+				font-size 20pt
+				padding .2em .5em
+				text-decoration none
+			&:hover 
+				background-color #4F79B7
+
+/*////////Desktop Styling////////*/
+@media (min-width: 1165px)
+	#mainnav
+		.mainnav__list
+			width 70em
+			.mainnav__list__item
+				&:first-child a
+						padding-left 0
+				a
+					padding 1.5em
+		.facebook
+			border-radius 100%
+			position initial
+			float right
+			margin .2em 0 0 0 
+			transition all .5s ease-out
+			a
+				padding .3em .6em
+				font-size 20pt
+			&:hover 
+				background-color #4F79B7
+	
+	#mainheader
+		background-image url(../img/hung-gar-stand-shape-1.png), url(../img/hung-gar-stand-shape-2.png)
+		/*For Firefox background position*/
+		background-position left 190px top 10px, right 130px top 50px
+		/*For Safari background position*/
+		background-position-x 18%, 85%
+		background-position-y -20%, -90%
+		background-repeat no-repeat
+		background-size 200px , 300px
+		height 235px
+		#mainheader__hgroup
+			font-size 40pt
+			margin 85px
+			.mainheader__hgroup__h1
+				display inline-block
+				font-size 40pt
+			.mainheader__hgroup__h2
+				color DarkBreakColor
+				display inline-block
+				font-size 40pt
+				font-weight bold
+		#mainheader__lamlogo
+			top 27.5px
+			img
+				width 170px
+				height 180px
+		#mainheader__wuhsinglogo
+			top 52.5px
+			img
+				width 130px
+				height 130px
+
+

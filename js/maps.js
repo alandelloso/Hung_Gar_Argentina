@@ -44,5 +44,10 @@ function initialize(condition) {
     title: "Sede Capital"
   });
 
+  if($(window).width() >= 1065) {
+    map1.set('draggable', true);
+    map2.set('draggable', true);
+  }
+
 }
 

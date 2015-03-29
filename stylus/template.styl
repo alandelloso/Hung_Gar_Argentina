@@ -248,15 +248,13 @@ h3
 
 	/*Main Footer Tablet Adaptation*/
 	#mainfooter
-		position relative
-		text-align right
-		#mainfooter__figures
-			left .3em
-			position absolute
-			top .3em
-		#mainfooter__text
-			padding 2em .3em
-			text-align right
+		.max-w
+			#mainfooter__figures
+				float left
+				padding .2em 0 0 .3em
+			#mainfooter__text
+				padding 2em 1.5em
+				text-align right
 			
 	/*Mobile Navigation Hide*/
 	#mobilenavbar
@@ -313,6 +311,12 @@ h3
 
 /*////////Desktop Styling////////*/
 @media (min-width: 1165px)
+	.max-w
+		width 70em
+		display inline-block
+		#mainfooter__text
+				padding 2em 0 !important
+
 	#mainnav
 		.mainnav__list
 			width 70em

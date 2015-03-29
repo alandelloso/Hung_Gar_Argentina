@@ -37,18 +37,18 @@ header('Content-Type: text/html; charset=utf-8');
 			<p>La Asociación <span class="highlight">Wu Hsing Chuan</span>, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.</p>
 			<p>Pionera en la difusión del arte marcial tradicional, ha ganado su reconocimiento y reputación tanto a nivel nacional como internacional, con una trayectoria de más de cuatro décadas, en una constante búsqueda de la excelencia, trayendo directamente de la cuna del kung fu, los conocimientos transmitidos por los Maestros de los linajes más directos y reconocidos a nivel mundial, en los cinco sistemas que se difunden en la institución.</p>
 			<p>En el arte marcial tradicional, se habla de familia marcial, y ese es el ambiente en el que se entrena dentro de nuestra escuela, una gran familia a la que se suman constantemente nuevos integrantes, que van incorporando a través de la enseñanza y el ejemplo, disciplina y valores contenidos en los códigos de la ética, dando como resultado personas más saludables e íntegras.</p>
-			<p>Te invitamos a formar parte de esta gran familia y a disfrutar de la práctica de una auténtico arte marcial tradicional y sus invaluables enseñanzas ancestrales.</p>
+			<p>Te invitamos a formar parte de esta gran familia y a disfrutar de la práctica de un auténtico arte marcial tradicional y sus invaluables enseñanzas ancestrales.</p>
 		</article>
 		<section class="contacto wow bounceInUp">
 			<article class="card contacto__la-plata">
 				<h2>Sede La Plata</h2>
 				<figure class="clock__la-plata"></figure>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Sábados:</span> de 10:00 a.m. a 13:00 p.m</p>
+				<p><span class="bold">Sábados:</span> de 10:00 a 13:00</p>
 				<br>
 				<h3>Sihing Gabriel Moschella</h3>
-				<p><span class="bold">Martes:</span> de 10:00 a.m. a 11:30 a.m.</p>
-				<p><span class="bold">Jueves:</span> de 10:00 a.m. a 11:30 a.m.</p>
+				<p><span class="bold">Martes:</span> de 10:00 a 11:30</p>
+				<p><span class="bold">Jueves:</span> de 10:00 a 11:30</p>
 				<br>
 				<div class="pull-down">
 					<h3>Calle 6 N° 1210 (Entre 57 y 58)</h3>
@@ -59,8 +59,8 @@ header('Content-Type: text/html; charset=utf-8');
 				<h2>Sede Capital</h2>
 				<figure class="clock__capital"></figure>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes:</span> de 20:30 p.m. a 22:00 p.m</p>
-				<p><span class="bold">Jueves:</span> de 20:30 p.m. a 22:00 p.m</p>
+				<p><span class="bold">Martes:</span> de 20:30 a 22:00</p>
+				<p><span class="bold">Jueves:</span> de 20:30 a 22:00</p>
 				<br>
 				<div class="pull-down">
 					<h3>Esteban de Luca 2251</h3>

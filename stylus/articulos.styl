@@ -1,0 +1,66 @@
+/*Vars*/
+Montserrat = 'Montserrat', sans-serif
+Raleway = 'Raleway', sans-serif
+LightText = #EEE
+DarkText = #222
+/*Color Palet*/
+MainColor = #D32F2F
+DarkColor = #C62828
+DarkestColor = #B71C1C
+BreakColor = #FFC400
+DarkBreakColor = #FFAB00
+/*Other Colors*/
+Facebook = #3B5999
+
+h1
+	text-align left
+
+.new-article
+	background-color #EEE
+	border-radius 50px
+	color DarkText
+	margin-bottom 1em
+	overflow hidden
+	padding .3em 1.5em
+	position relative
+	text-align left
+	.new-article__date
+		color #888
+	.new-article__img
+		display none
+	.new-article__description
+		text-align center 
+		p 
+			text-align left
+
+.button
+	border none
+	display inline-block
+	margin .5em 0 2em 0 
+	a
+		padding 1em 2em
+		background-color BreakColor
+		text-decoration none
+		color DarkText
+		transition all .2s ease-out
+		&:hover
+			box-shadow rgba(0,0,0,0.5) 5px 5px 15px
+			
+@media (min-width: 1165px)
+	.centralcontainer
+		width 70em
+		
+	.new-article
+		.new-article__date
+			margin-bottom 0
+		.new-article__description
+			display inline-block
+			max-width 55em
+			text-align left
+			vertical-align top
+		.new-article__img
+			display inline-block
+			position absolute
+			right 0
+			top 0
+			width 200px

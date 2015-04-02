@@ -2,9 +2,14 @@ AddDefaultCharset UTF-8
 
 RewriteEngine on
 
-#Main Sites
+RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteRule ^inicio?$ index.php
-RewriteRule ^hung-gar?$ hung-gar.php
-RewriteRule ^linaje?$ linaje.php
-RewriteRule ^contactanos?$ contactanos.php
-RewriteRule ^articulos?$ articulos.php
+
+RewriteRule ^no-soportado?$ legacy.html
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 403 http://www.hunggarargentina.com.ar/errors/403
+
+ErrorDocument 404 http://www.hunggarargentina.com.ar/errors/404

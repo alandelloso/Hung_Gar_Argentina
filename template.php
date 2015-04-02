@@ -15,8 +15,9 @@ header('Content-Type: text/html; charset=utf-8');
 	<!-- Title -->
 	<title>Hung Gar Argentina</title>
 	<!--[if lt IE 9]>
-	<link rel="stylesheet" href="css/legacy/template.css">
-	<script src="libs/html5-for-legacy.js"></script>
+		<script>
+		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		</script>
 	<![endif]-->
 	<!-- CSS Links -->
 	<link rel="stylesheet" href="css/normalize.css">

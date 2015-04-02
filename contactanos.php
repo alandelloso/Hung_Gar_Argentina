@@ -9,16 +9,16 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<meta charset="UTF-8">
 	<!-- Meta Description -->
-	<meta name="description" content="Hung Gar del linaje directo de la familia Lam en Argentina. Sifu Hernán Dell' Oso, miembro de la Wu Hsing Chuan y la World Hung Gar Association." />
+	<meta name="description" content="Contactanos para formar parte de las clases del Hung Gar tradicional del linaje de la Familia Lam" />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->
 	<title>Hung Gar Argentina</title>
 	<!--[if lt IE 9]>
-	<link rel="stylesheet" href="css/legacy/template.css">
-	<script src="libs/html5-for-legacy.js"></script>
+		<script>
+		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
+		</script>
 	<![endif]-->
-	<!-- CSS Links -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/template.css">
 	<link rel="stylesheet" href="css/contacto.css">

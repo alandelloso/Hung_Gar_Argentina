@@ -273,11 +273,10 @@ h3
 		position relative
 		text-align center
 		.mainnav__list
-			display inline-block
+			display block
 			margin 0
 			padding 0
 			text-align left
-			width 70em
 			.mainnav__list__item
 				display inline-block
 				position relative
@@ -294,10 +293,11 @@ h3
 			background-color Facebook
 			border-radius 100%
 			display inline-block
-			position absolute
-			right 0
+			position inherith
+			float right
 			top .1em
 			margin-right  1.5em
+			margin-top .1em
 			transition all .5s ease-out
 			a
 				color LightText	
@@ -319,6 +319,7 @@ h3
 
 	#mainnav
 		.mainnav__list
+			display inline-block
 			width 70em
 			.mainnav__list__item
 				&:first-child a
@@ -327,7 +328,7 @@ h3
 					padding 1.5em
 		.facebook
 			border-radius 100%
-			position initial
+			position inherith
 			float right
 			margin .2em 0 0 0 
 			transition all .5s ease-out

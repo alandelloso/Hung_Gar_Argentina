@@ -39,7 +39,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<h2 class="new-article__title">Viaje a China 2012</h2>
 			<h4 class="new-article__date">29 de Marzo de 2015</h4>
 			<div class="new-article__description">
-				<p>Artículo completo escrito por Hernán Dell' Oso explicando todo lo realizado en el viaje a Hong Kong y Fatsan en el año 2012 organizado por la escuela de artes marciales tradicionales chinas Wu Hsing Chuan. Toda la información sobre el Bai She que el sifu Wong Hon Keung (discipulo directo del Grán Maestro Lam Cho) realizó con Hernán Dell' Oso para convertirlo en su discipulo directo.</p>
+				<p>Artículo completo escrito por Hernán Dell' Oso explicando todo lo realizado en el viaje a Hong Kong y Fatsan en el año 2012 organizado por la escuela de artes marciales tradicionales chinas Wu Hsing Chuan. Toda la información sobre el Bai Shi que el sifu Wong Hon Keung (discipulo directo del Grán Maestro Lam Cho) realizó con Hernán Dell' Oso para convertirlo en su discipulo directo.</p>
 				<div role="button" class="button">
 					<a href="articulo/viaje-a-china-2012">Leer Artículo</a>
 				</div>

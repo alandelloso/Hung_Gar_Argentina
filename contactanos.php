@@ -64,7 +64,7 @@ header('Content-Type: text/html; charset=utf-8');
 				<p><span class="bold">Martes:</span> de 20:30 a 22:00</p>
 				<p><span class="bold">Jueves:</span> de 20:30 a 22:00</p>
 				<div class="centerme">
-				<img src="img/bus-icon.png" alt="Colectivos" class="bus">
+				<img src="img/bus-icon.png" alt="Colectivos" class="bus" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				</div>
 				<p>6 - 9 - 25 -  28 -  32 -  50 -  65 -  75 - 91 -  95 - 97 - 101 -  118 -  133 -  134 -  143 -  150 -  188</p>
 				<p><span class="highlight">Línea H:</span> Estación Caseros</p>

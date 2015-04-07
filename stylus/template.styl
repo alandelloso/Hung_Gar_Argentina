@@ -205,23 +205,19 @@ h3
 			transition all .5s ease-in
 			text-decoration none
 	.facebook
-		background-color Facebook
-		border-radius 100%
 		display inline-block
-		margin 0.15em .7em 0 0 
+		margin-right .7em 
 		position absolute
 		right 0
 		top 0
-		transition all .5s ease-out
 		a
-			color LightText	
-			display block
-			font-size 1.17em
-			font-size 20pt
-			padding .2em .5em
 			text-decoration none
+			img 
+				width 41px
 		&:hover 
-			background-color #4F79B7
+			transition all .5s ease-out
+			transform rotate(360deg)
+			
 	#mobilenavbar__title
 		color LightText
 		display inline-block
@@ -288,26 +284,19 @@ h3
 					padding 1.3em
 					text-decoration none
 					
-
 		.facebook
-			background-color Facebook
-			border-radius 100%
 			display inline-block
 			position inherith
 			float right
-			top .1em
-			margin-right  1.5em
-			margin-top .1em
-			transition all .5s ease-out
+			margin-right  1em
+			margin-top .02em
 			a
-				color LightText	
-				display block
-				font-size 1.17em
-				font-size 20pt
-				padding .2em .5em
 				text-decoration none
+				img
+					width 40px
 			&:hover 
-				background-color #4F79B7
+				transition all .5s ease-out
+				transform rotate(360deg)
 
 /*////////Desktop Styling////////*/
 @media (min-width: 1165px)
@@ -327,16 +316,13 @@ h3
 				a
 					padding 1.5em
 		.facebook
-			border-radius 100%
-			position inherith
-			float right
-			margin .2em 0 0 0 
-			transition all .5s ease-out
+			margin .1em 0 0 0 
 			a
-				padding .3em .6em
-				font-size 20pt
+				img 
+					width 45px
 			&:hover 
-				background-color #4F79B7
+				transition all .5s ease-out
+				transform rotate(360deg)
 	
 	#mainheader
 		background-image url(../img/hung-gar-stand-shape-1.png), url(../img/hung-gar-stand-shape-2.png)

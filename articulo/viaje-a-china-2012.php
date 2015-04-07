@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<p>En una íntima pero muy emotiva ceremonia, se llevó a cabo la aceptación por parte del Sifu Benny Wong, de mi persona como su discípulo, asumiendo las responsabilidades que tal aceptación implica, ante la presencia de importantes maestros, que oficiaron de testigos del compromiso asumido, tales como Master Hui Yin Fun, Master Lam Chun Chun (hijo del GGM Lam Cho), Sifu Neldo Sacomani, Sifu Luis Villano y Sifu Fernando Carena.</p>
 			<figure class="pic">
 				<img src="../img/ceremonia-del-te.jpg" alt="Ceremonia del Té"  oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption>Bai Shee de Hernán Dell' Oso junto a su Sifu Wong Hong Keung</figcaption>
+				<figcaption>Bai Shi de Hernán Dell' Oso junto a su Sifu Wong Hon Keung</figcaption>
 			</figure>
 			<p>Durante la ceremonia, recibí por parte de mi Sifu Benny Wong, varios obsequios muy apreciados por mi, entre ellos algunos de gran importancia dentro de las tradiciones de los clanes marciales.</p>
 			<p>Al día siguiente y luego de los felices acontecimientos que se sucedieron casi a modo de bienvenida por parte de nuestros maestros en Hong Kong, iniciamos los entrenamientos, perfectamente organizados por nuestros experimentados anfitriones, Sifu Wong y Sifu Hui.</p>
@@ -82,7 +82,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<p>También quiero expresar mi gratitud con mi Sifu Benny Wong, por su generosidad, paciencia, calidad y calidez humana, al aceptarme como parte de su familia marcial, y pasarme los conocimientos que recibiera de su Sifu el GGM Lam Cho, lo que para mí es invaluable.</p>
 			<figure class="pic">
 				<img src="../img/benny-wong-hernan-dell-oso.jpg" alt="Sifu Wong Hon Keung y su discipulo directo Hernán Dell' Oso"  oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption>Sifu Wong Hong Keung y su discipulo directo Hernán Dell' Oso</figcaption>
+				<figcaption>Sifu Wong Hon Keung y su discipulo directo Hernán Dell' Oso</figcaption>
 			</figure>
 		</article>
 	</section>

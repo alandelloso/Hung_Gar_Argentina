@@ -11,8 +11,15 @@ DarkBreakColor = #FFAB00
 /*Other Colors*/
 Facebook = #3B5999
 
+h1
+	text-align left
+
+.fb_iframe_widget
+	display none !important
+	
 .author
 	color #777
+	text-align left
 
 .card
 	text-align left
@@ -34,5 +41,18 @@ Facebook = #3B5999
 			
 @media (min-width: 1165px)
 	.card
+		text-align center
+		ul
+			text-align left
+			li
+				text-align left
 		p 
 			text-align justify
+	
+	.fb_iframe_widget
+		display inline-block !important
+		
+	.social__share
+		text-align left
+		width 800px
+		display inline-block

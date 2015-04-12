@@ -1,0 +1,62 @@
+/*Vars*/
+Montserrat = 'Montserrat', sans-serif
+Raleway = 'Raleway', sans-serif
+LightText = #EEE
+DarkText = #222
+/*Color Palet*/
+MainColor = #D32F2F
+DarkColor = #C62828
+DarkestColor = #B71C1C
+BreakColor = #FFC400
+DarkBreakColor = #FFAB00
+/*Other Colors*/
+Facebook = #3B5999
+
+h1
+	text-align left
+	
+
+.galery 
+	text-align center
+	.galery__pic
+		display inline-block
+		margin .5em
+		max-width 100%
+		transition all .5s ease-in
+		.galery__pic__img
+			height 100%
+			width 100%
+			
+@media (min-width: 845px)
+	body
+		position relative
+		
+	.galery 
+		.galery__pic
+			height 200px
+			width 200px
+			cursor pointer
+			.galery__pic__caption
+				display none
+				
+	.screen--black
+		background-color rgba(0,0,0,0.8)
+		bottom 0
+		height 100%
+		left 0
+		position absolute
+		top 0
+		width 100%
+		display none
+		z-index 1
+	
+@media (min-width: 1165px)		
+	.centralcontainer
+		width 700em
+	
+	.galery
+		text-align left
+		.galery__pic
+			text-align center
+	
+

@@ -84,7 +84,17 @@ header('Content-Type: text/html; charset=utf-8');
 				<img src="../img/benny-wong-hernan-dell-oso.jpg" alt="Sifu Wong Hon Keung y su discipulo directo Hernán Dell' Oso"  oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				<figcaption>Sifu Wong Hon Keung y su discipulo directo Hernán Dell' Oso</figcaption>
 			</figure>
+			<br>
+			<!-- Facebook Part Start-->
+			<div class="social__share">
+				<div class="fb-share-button" data-href="http://www.hunggarargentina.com.ar/articulo/viaje-a-china-2012" data-layout="box_count"></div>
+			</div>
+			<br>
+			<br>
+			<div class="fb-comments" data-href="http://www.hunggarargentina.com.ar/articulo/viaje-a-china-2012" data-width="800" data-numposts="15" data-colorscheme="light"></div>
+			<!-- Facebook Part End-->
 		</article>
+		
 	</section>
 </main>
 	<!-- Content Finish Here -->
@@ -93,5 +103,6 @@ header('Content-Type: text/html; charset=utf-8');
 	<script src="../libs/jquery-1.11.2.min.js"></script>
 	<script src="../libs/prefixfree.js"></script>
 	<script src="../js/template.js"></script>
+	<script src="../js/facebook-sdk.js"></script>
 </body>
 </html>

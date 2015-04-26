@@ -4,6 +4,9 @@ function script() {
 
 	$('.galery__pic').on('click', picAction);
 	$('.screen--black').on('click', picOut);
+	$('#china-2012').on('click', china2012);
+	$('#china-2011').on('click', china2011);
+	$('#sede-central').on('click', sedeCentral);
 	
 }
 
@@ -54,4 +57,16 @@ function picOut() {
 	captions.css('display', 'none');
 	pics.css(normal);
 	blackscreen.fadeOut();	
+}
+
+function china2012() {
+	document.location.href = 'galery/china-2012';
+}
+
+function china2011() {
+	document.location.href = 'galery/china-2011';
+}
+
+function sedeCentral() {
+	document.location.href = 'galery/sede-central';
 }

@@ -17,6 +17,7 @@ h1
 	
 h4
 	font-size 110%
+	transition all .5s ease
 	
 .bus 
 	width 100px
@@ -42,10 +43,17 @@ h4
 		color DarkText
 		transition all .2s ease-out
 		&:hover
-			padding-left .3em
 			color MainColor
+	&:hover a
+		padding-left .3em
+		font-weight bold
+		font-size 110%
+	&:hover .marker
+			width 20px
+			
 	.marker
 		width 15px
+		transition all .2s ease-out
 	
 .sedes__picture
 	display inline-block
@@ -70,3 +78,9 @@ h4
 	.sede__capital, .sede__laplata
 		vertical-align top 
 		width 48%
+	
+	.mail 
+		&:hover h4
+			color BreakColor
+			transition all .5s ease
+			font-size 200%

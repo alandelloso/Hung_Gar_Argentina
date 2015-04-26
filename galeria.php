@@ -32,82 +32,28 @@ header('Content-Type: text/html; charset=utf-8');
 	<!-- Content Starts Here -->
 <main class="centerme">
 	<section class="centralcontainer">
-		<div class="screen--black"></div>
 		<h1>Galería</h1>
-		<section class="galery">
 
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 1
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
+		<article class="galery__item" id="china-2012">
+			<div class="darker"></div>
+			<img src="img/galery/china-2012/entrenando-en-el-kowloon-park.jpg" alt="Viaje a China 2012">
+			<p class="galery__item__description">Viaje a China 2012</p>
+			<p class="galery__item__ver">Ver Galería</p>
+		</article>
 
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 2
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
+		<article class="galery__item" id="china-2011">
+			<div class="darker"></div>
+			<img src="img/galery/china-2011/primera-noche-en-hong-kong.jpg" alt="Viaje a China 2011">
+			<p class="galery__item__description">Viaje a China 2011</p>
+			<p class="galery__item__ver">Ver Galería</p>
+		</article>
 
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 3
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 4
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 4
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 4
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 4
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
-			<!-- Galery Element Start-->
-			<figure class="galery__pic">
-				<img src="img/galery/photo1.jpg" alt="Foto 1" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
-				<figcaption class="galery__pic__caption">
-					Esta es la foto Nº 4
-				</figcaption>
-			</figure>
-			<!-- Galery Element End-->
-
+		<article class="galery__item" id="sede-central">
+			<div class="darker"></div>
+			<img src="img/galery/sede-central/entrenando-wu-dip-dao.jpg" alt="Sede Central">
+			<p class="galery__item__description">Sede Central</p>
+			<p class="galery__item__ver">Ver Galería</p>
+		</article>
 		</section>
 	</section>
 </main>

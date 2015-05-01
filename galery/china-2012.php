@@ -66,7 +66,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/en-la-casa-de-sikung-lam-cho-el-día-del-bai-shi.jpg" alt="En la casa de Sikung Lam Cho el día del Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/en-la-casa-de-sikung-lam-cho-el-dia-del-bai-shi.jpg" alt="En la casa de Sikung Lam Cho el día del Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				<figcaption class="galery__pic__caption">
 					En la casa de Sikung Lam Cho el día del Bai Shi
 				</figcaption>
@@ -110,7 +110,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<!-- Galery Element End-->
 
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/maestros-testigos-de-la-ceremonia-Bai-shi.jpg" alt="Maestros testigos de la ceremonia Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2012/maestros-testigos-de-la-ceremonia-bai-shi.jpg" alt="Maestros testigos de la ceremonia Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
 				<figcaption class="galery__pic__caption">
 					Maestros testigos de la ceremonia Bai Shi
 				</figcaption>

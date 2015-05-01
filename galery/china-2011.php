@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/en-la-bahía-de-hong-kong.jpg" alt="En la bahía de Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/en-la-bahia-de-hong-kong.jpg" alt="En la bahía de Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				<figcaption class="galery__pic__caption">
 					En la bahía de Hong Kong
 				</figcaption>
@@ -75,7 +75,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/escenario-y-playón-de-exhibiciones-en-el-museo-de-wong-fei-hung.jpg" alt="Escenario y playón de exhibiciones en el museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/escenario-y-playon-de-exhibiciones-en-el-museo-de-wong-fei-hung.jpg" alt="Escenario y playón de exhibiciones en el museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				<figcaption class="galery__pic__caption">
 					Escenario y playón de exhibiciones en el museo de Wong Fei Hung
 				</figcaption>

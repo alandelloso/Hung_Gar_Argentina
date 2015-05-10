@@ -39,7 +39,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/armero-en-la-casa-del-gm-lam-cho.jpg" alt="Armero en la casa del GGM Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/armero-en-la-casa-del-gm-lam-cho.jpg" alt="Armero en la casa del GGM Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Armero en la casa del GGM Lam Cho
 				</figcaption>
@@ -48,7 +48,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/con-sifu-wong-en-el-kowloon-park.jpg" alt="Con Sifu Wong en el Kowloon Park" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/con-sifu-wong-en-el-kowloon-park.jpg" alt="Con Sifu Wong en el Kowloon Park" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Con Sifu Wong en el Kowloon Park
 				</figcaption>
@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/en-el-kowloon-park-con-el-maestro-de-mantis-yuen-man-kai.jpg" alt="En el Kowloon Park con el maestro de mantis Yuen Man Kai" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/en-el-kowloon-park-con-el-maestro-de-mantis-yuen-man-kai.jpg" alt="En el Kowloon Park con el maestro de mantis Yuen Man Kai" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					En el Kowloon Park con el maestro de mantis Yuen Man Kai
 				</figcaption>
@@ -66,7 +66,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/en-la-casa-de-sikung-lam-cho-el-dia-del-bai-shi.jpg" alt="En la casa de Sikung Lam Cho el día del Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/en-la-casa-de-sikung-lam-cho-el-dia-del-bai-shi.jpg" alt="En la casa de Sikung Lam Cho el día del Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					En la casa de Sikung Lam Cho el día del Bai Shi
 				</figcaption>
@@ -75,7 +75,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/entrenando-con-anillas-en-las-puertas-de-la-chin-woo-fatsan.jpg" alt="Entrenando con anillas en las puertas de la Chin Woo (Fatsan)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/entrenando-con-anillas-en-las-puertas-de-la-chin-woo-fatsan.jpg" alt="Entrenando con anillas en las puertas de la Chin Woo (Fatsan)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Entrenando con anillas en las puertas de la Chin Woo (Fatsan)
 				</figcaption>
@@ -84,7 +84,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/entrenando-en-el-kowloon-park.jpg" alt="Entrenando en el Kowloon Park" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/entrenando-en-el-kowloon-park.jpg" alt="Entrenando en el Kowloon Park" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Entrenando en el Kowloon Park
 				</figcaption>
@@ -93,7 +93,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/foto-tadicional-con-mi-sifu.jpg" alt="Foto tadicional con mi Sifu" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2012/foto-tadicional-con-mi-sifu.jpg" alt="Foto tadicional con mi Sifu" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Foto tadicional con mi Sifu
 				</figcaption>
@@ -102,7 +102,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/foto-tradicional-con-mi-sifu-en-la-casa-de-sikung-lam-cho.jpg" alt="Foto tradicional con mi Sifu en la casa de Sikung Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2012/foto-tradicional-con-mi-sifu-en-la-casa-de-sikung-lam-cho.jpg" alt="Foto tradicional con mi Sifu en la casa de Sikung Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Foto tradicional con mi Sifu en la casa de Sikung Lam Cho
 				</figcaption>
@@ -110,7 +110,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<!-- Galery Element End-->
 
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/maestros-testigos-de-la-ceremonia-bai-shi.jpg" alt="Maestros testigos de la ceremonia Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2012/maestros-testigos-de-la-ceremonia-bai-shi.jpg" alt="Maestros testigos de la ceremonia Bai Shi" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Maestros testigos de la ceremonia Bai Shi
 				</figcaption>
@@ -118,7 +118,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<!-- Galery Element End-->
 
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2012/tumba-del-ggm-lam-cho.jpg" alt="Tumba del GGM Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2012/tumba-del-ggm-lam-cho.jpg" alt="Tumba del GGM Lam Cho" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Tumba del GGM Lam Cho
 				</figcaption>

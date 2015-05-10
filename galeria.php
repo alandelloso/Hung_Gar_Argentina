@@ -34,6 +34,13 @@ header('Content-Type: text/html; charset=utf-8');
 	<section class="centralcontainer">
 		<h1>Galería</h1>
 
+		<article class="galery__item" id="seminario-uruguay">
+			<div class="darker"></div>
+			<img src="img/galery/seminario-interdisciplinario-uruguay/foto-grupal.jpg" alt="Seminario Uruguay">
+			<p class="galery__item__description">Seminario Uruguay</p>
+			<p class="galery__item__ver">Ver Galería</p>
+		</article>
+
 		<article class="galery__item" id="china-2012">
 			<div class="darker"></div>
 			<img src="img/galery/china-2012/entrenando-en-el-kowloon-park.jpg" alt="Viaje a China 2012">
@@ -54,6 +61,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<p class="galery__item__description">Sede Central</p>
 			<p class="galery__item__ver">Ver Galería</p>
 		</article>
+
 		</section>
 	</section>
 </main>

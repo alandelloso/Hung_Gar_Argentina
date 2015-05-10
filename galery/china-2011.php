@@ -39,7 +39,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/con-bruce-lee-inmortalizado.jpg" alt="Con Bruce Lee inmortalizado" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/con-bruce-lee-inmortalizado.jpg" alt="Con Bruce Lee inmortalizado" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Con Bruce Lee inmortalizado
 				</figcaption>
@@ -48,7 +48,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/en-el-kowloon-park-luego-de-entrenar-con-sifu-wong.jpg" alt="En el Kowloon Park luego de entrenar con Sifu Wong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/en-el-kowloon-park-luego-de-entrenar-con-sifu-wong.jpg" alt="En el Kowloon Park luego de entrenar con Sifu Wong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					En el Kowloon Park luego de entrenar con Sifu Wong
 				</figcaption>
@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/en-la-bahia-de-hong-kong.jpg" alt="En la bahía de Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/en-la-bahia-de-hong-kong.jpg" alt="En la bahía de Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					En la bahía de Hong Kong
 				</figcaption>
@@ -66,7 +66,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/en-la-puerta-del-museo-de-wong-fei-hung-templo-de-los-ancestros-fatsan.jpg" alt="En la puerta del museo de Wong Fei Hung (Templo de los Ancestros - Fatsan)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/en-la-puerta-del-museo-de-wong-fei-hung-templo-de-los-ancestros-fatsan.jpg" alt="En la puerta del museo de Wong Fei Hung (Templo de los Ancestros - Fatsan)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					En la puerta del museo de Wong Fei Hung (Templo de los Ancestros - Fatsan)
 				</figcaption>
@@ -75,7 +75,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/escenario-y-playon-de-exhibiciones-en-el-museo-de-wong-fei-hung.jpg" alt="Escenario y playón de exhibiciones en el museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/escenario-y-playon-de-exhibiciones-en-el-museo-de-wong-fei-hung.jpg" alt="Escenario y playón de exhibiciones en el museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Escenario y playón de exhibiciones en el museo de Wong Fei Hung
 				</figcaption>
@@ -84,7 +84,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/junto-al-guerrero-de-bronce.jpg" alt="Junto al guerrero de bronce" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/junto-al-guerrero-de-bronce.jpg" alt="Junto al guerrero de bronce" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Junto al guerrero de bronce
 				</figcaption>
@@ -93,7 +93,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/museo-de-wong-fei-hung.jpg" alt="Museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/china-2011/museo-de-wong-fei-hung.jpg" alt="Museo de Wong Fei Hung" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Museo de Wong Fei Hung
 				</figcaption>
@@ -102,7 +102,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/museo-de-wong-fei-hung-xixiao.jpg" alt="Museo de Wong Fei Hung (Xixiao)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2011/museo-de-wong-fei-hung-xixiao.jpg" alt="Museo de Wong Fei Hung (Xixiao)" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Museo de Wong Fei Hung (Xixiao)
 				</figcaption>
@@ -110,7 +110,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<!-- Galery Element End-->
 
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/primera-noche-en-hong-kong.jpg" alt="Primera noche en Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2011/primera-noche-en-hong-kong.jpg" alt="Primera noche en Hong Kong" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Primera noche en Hong Kong
 				</figcaption>
@@ -118,7 +118,7 @@ header('Content-Type: text/html; charset=utf-8');
 			<!-- Galery Element End-->
 
 			<figure class="galery__pic">
-				<img src="../img/galery/china-2011/visita-al-templo-de-los-ancestros-en-fatsan.jpg" alt="Visita al templo de los ancestros en Fatsan" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'> 
+				<img src="../img/galery/china-2011/visita-al-templo-de-los-ancestros-en-fatsan.jpg" alt="Visita al templo de los ancestros en Fatsan" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'> 
 				<figcaption class="galery__pic__caption">
 					Visita al templo de los ancestros en Fatsan
 				</figcaption>

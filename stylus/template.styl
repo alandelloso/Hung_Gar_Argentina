@@ -208,15 +208,13 @@ h3
 		display inline-block
 		margin-right .7em 
 		position absolute
+		border-radius 100%
 		right 0
 		top 0
 		a
 			text-decoration none
 			img 
 				width 41px
-		&:hover 
-			transition all .5s ease-out
-			transform rotate(360deg)
 			
 	#mobilenavbar__title
 		color LightText
@@ -294,9 +292,6 @@ h3
 				text-decoration none
 				img
 					width 40px
-			&:hover 
-				transition all .5s ease-out
-				transform rotate(360deg)
 
 /*////////Desktop Styling////////*/
 @media (min-width: 1165px)
@@ -316,13 +311,15 @@ h3
 				a
 					padding 1.5em
 		.facebook
-			margin .1em 0 0 0 
+			margin .1em 0 0 0
+			transition all .3s ease-out 
 			a
 				img 
 					width 45px
 			&:hover 
 				transition all .5s ease-out
-				transform rotate(360deg)
+				-webkit-filter drop-shadow(3px 3px 3px rgba(0,0,0,0.5))
+				filter drop-shadow(3px 3px 3px rgba(0,0,0,0.5))
 	
 	#mainheader
 		background-image url(../img/hung-gar-stand-shape-1.png), url(../img/hung-gar-stand-shape-2.png)

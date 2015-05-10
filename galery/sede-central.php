@@ -39,7 +39,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/sede-central/entrenando-con-sifu-luis-villano.jpg" alt="Entrenando con Sifu Luis Villano" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/sede-central/entrenando-con-sifu-luis-villano.jpg" alt="Entrenando con Sifu Luis Villano" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Entrenando con Sifu Luis Villano
 				</figcaption>
@@ -48,7 +48,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/sede-central/entrenando-tid-sin-kuen.jpg" alt="Entrenando Tid Sin Kuen" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/sede-central/entrenando-tid-sin-kuen.jpg" alt="Entrenando Tid Sin Kuen" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Entrenando Tid Sin Kuen
 				</figcaption>
@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/sede-central/entrenando-wu-dip-dao.jpg" alt="Entrenando Wu Dip Dao" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/sede-central/entrenando-wu-dip-dao.jpg" alt="Entrenando Wu Dip Dao" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Entrenando Wu Dip Dao
 				</figcaption>
@@ -66,7 +66,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/sede-central/grupo-de-profesores.jpg" alt="Grupo de Profesores" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
+				<img src="../img/galery/sede-central/grupo-de-profesores.jpg" alt="Grupo de Profesores" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Grupo de Profesores
 				</figcaption>

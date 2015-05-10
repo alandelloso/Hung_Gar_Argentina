@@ -7,6 +7,7 @@ function script() {
 	$('#china-2012').on('click', china2012);
 	$('#china-2011').on('click', china2011);
 	$('#sede-central').on('click', sedeCentral);
+	$('#seminario-uruguay').on('click', seminarioUruguay);
 	
 }
 
@@ -69,4 +70,8 @@ function china2011() {
 
 function sedeCentral() {
 	document.location.href = 'galery/sede-central';
+}
+
+function seminarioUruguay() {
+	document.location.href = 'galery/seminario-interdisciplinario-uruguay';
 }

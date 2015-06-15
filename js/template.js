@@ -35,6 +35,22 @@ $(".mainnav__list__item a, .mobilenav__list__item a").click(function(e){
 
 $('#menubutton').on('click', menuAction);
 
+//Funcion scroll para flecha regresar
+
+$(window).scroll(function() {
+
+	var height = $(window).scrollTop();
+	var width = $(window).width();
+
+	if(width > 1165 && height  > 100) {
+		$('.go-up').css({'bottom': '120px'});
+	} else if(width > 1165 && height  < 100) {
+		$('.go-up').css({'bottom': '-50px'});
+	} else if(width < 1165) {
+		$('.go-up').css({'bottom': '-50px'});
+	}
+});
+
 }
 
 function menuAction() {

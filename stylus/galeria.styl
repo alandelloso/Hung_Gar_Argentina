@@ -63,11 +63,12 @@ h1
 		transition all 1s ease-out
 	.galery__item__description
 		font-size 40px
-		left 10%
 		position absolute
 		text-shadow rgb(0,0,0) 1px 1px 0px
 		top 20%
 		transition all .3s ease-out
+		width 100%
+		height 100%
 	&:hover .galery__item__description
 		top 400px
 		transition all 1s ease-out
@@ -111,6 +112,16 @@ h1
 @media (min-width: 1165px)		
 	.centralcontainer
 		width 700em
+		
+	.flex-box
+		padding 0 40px
+		display -webkit-box
+		display -moz-box
+		display -ms-flexbox
+		display -webkit-flex
+		display flex
+		justify-content space-between
+		flex-flow row wrap
 	
 	.galery
 		text-align left

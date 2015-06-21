@@ -18,46 +18,64 @@ header('Content-Type: text/html; charset=utf-8');
 		<script>
 		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
 		</script>
-	<![endif]-->
-	<!-- CSS Links -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/template.css">
-	<link rel="stylesheet" href="css/articulos.css">
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="img/favicon.ico">
-</head>
-<body>
-	<?php include "templates/header.html"; ?>
-	<?php include "templates/navigation.html"; ?>
-	<!-- Content Starts Here -->
-<main class="centerme">
-	<section class="centralcontainer">
-		<h1>Artículos</h1>
+		<![endif]-->
+		<!-- CSS Links -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/template.css">
+		<link rel="stylesheet" href="css/articulos.css">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="img/favicon.ico">
+	</head>
+	<body>
+		<?php include "templates/header.html"; ?>
+		<?php include "templates/navigation.html"; ?>
+		<!-- Content Starts Here -->
+		<main class="centerme">
+			<section class="centralcontainer">
+				<h1>Artículos</h1>
+				<article class="flex-box">
 
-		<!-- Inicio de Artículo -->
-		<article class="new-article">
-			<h2 class="new-article__title">Viaje a China 2012</h2>
-			<h4 class="new-article__date">29 de Marzo de 2015</h4>
-			<div class="new-article__description">
-				<p>Artículo completo escrito por Hernán Dell' Oso explicando todo lo realizado en el viaje a Hong Kong y Fatsan en el año 2012 organizado por la escuela de artes marciales tradicionales chinas Wu Hsing Chuan. Toda la información sobre el Bai Shi que el sifu Wong Hon Keung (discipulo directo del Grán Maestro Lam Cho) realizó con Hernán Dell' Oso para convertirlo en su discipulo directo.</p>
-				<div role="button" class="button">
-					<a href="articulo/viaje-a-china-2012">Leer Artículo</a>
-				</div>
-				<br>
-			</div>
-			<img class="new-article__img" src="img/article/benny-wong-hernan-dell-oso-2.jpg" alt="Benny Wong - Hernán Dell' Oso"  oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
-			<br>
-		</article>
-	   <!-- Final de Artículo -->
-	   
-	</section>
-</main>
-	<!-- Content Finish Here -->
-	<?php include "templates/footer.html"; ?>
-	<!-- Javascript Libraries -->
-	<script src="libs/jquery-1.11.2.min.js"></script>
-	<script src="libs/animatescroll.min.js"></script>
-	<script src="libs/prefixfree.js"></script>
-	<script src="js/template.js"></script>
-</body>
-</html>
+					<!-- Inicio de Artículo -->
+					<article class="new-article">
+						<img src="img/article/entrega-certificado-benny-wong.jpg" alt="Maestros en Bahía de Hong Kong">
+						<div class="interaction-container">
+							<h2 class="interaction-container__title">Nota en Revista "MiráBA"</h2>
+							<h3 class="interaction-container__subtitle">Enlace</h3>
+							<button class="interaction-container__action-button"><a href="http://issuu.com/aqui_la_plata/docs/mir__ba_75/52?e=0" target="_blank">VISITAR ENLACE</a></button>
+						</div>
+					</article>
+					<!-- Final de Artículo -->
+
+					<!-- Inicio de Artículo -->
+					<article class="new-article">
+						<img src="img/article/maestros-bahia-hong-kong.jpg" alt="Maestros en Bahía de Hong Kong">
+						<div class="interaction-container">
+							<h2 class="interaction-container__title">Nota en Diario "El Día"</h2>
+							<h3 class="interaction-container__subtitle">Enlace</h3>
+							<button class="interaction-container__action-button"><a href="http://pasado.eldia.com/edis/20130205/Platenses-China-para-importar-mejores-lecciones-Kung-Fu-informaciongeneral1.htm" target="_blank">VISITAR ENLACE</a></button>
+						</div>
+					</article>
+					<!-- Final de Artículo -->
+
+					<!-- Inicio de Artículo -->
+					<article class="new-article">
+						<img src="img/article/benny-wong-hernan-dell-oso.jpg" alt="Benny Wong y Hernán Dell'Oso">
+						<div class="interaction-container">
+							<h2 class="interaction-container__title">Viaje a China 2012</h2>
+							<h3 class="interaction-container__subtitle">Artículo</h3>
+							<button class="interaction-container__action-button"><a href="articulo/viaje-a-china-2012">LEER ARTÍCULO</a></button>
+						</div>
+					</article>
+					<!-- Final de Artículo -->
+				</article>
+			</section>
+		</main>
+		<!-- Content Finish Here -->
+		<?php include "templates/footer.html"; ?>
+		<!-- Javascript Libraries -->
+		<script src="libs/jquery-1.11.2.min.js"></script>
+		<script src="libs/animatescroll.min.js"></script>
+		<script src="libs/prefixfree.js"></script>
+		<script src="js/template.js"></script>
+	</body>
+	</html>

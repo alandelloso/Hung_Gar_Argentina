@@ -9,11 +9,11 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<meta charset="UTF-8">
 	<!-- Meta Description -->
-	<meta name="description" content="Galería del viaje a china realizado en el año 2011" />
+	<meta name="description" content="Galería del la sede central de la asociación Wu Hsing Chuan Argentina" />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->
-	<title>Viaje a China 2011 - Galería</title>
+	<title>Sede Central - Galería</title>
 	<!--[if lt IE 9]>
 		<script>
 		window.location.href="http://www.hunggarargentina.com.ar/no-soportado";
@@ -33,9 +33,63 @@ header('Content-Type: text/html; charset=utf-8');
 <main class="centerme">
 	<section class="centralcontainer">
 		<div class="screen--black"></div>
-		<h1>Viaje a China 2011</h1>
+		<h1>Sede Central</h1>
 
 		<section class="galery">
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/frente-a-la-sede-central-con-sifu-wong.jpg" alt="Llegando a Sede Central" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					Llegando a Sede Central
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/reunion-de-sifu-wong-y-sifu-sacomani.jpg" alt="Reunión de Sifu Wong y Sifu Sacomani" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					Reunión de Sifu Wong y Sifu Sacomani
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/en-sei-ping-mah.jpg" alt="En Sei Ping Mah" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					En Sei Ping Mah
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/clase-a-puertas-cerradas-del-sifu-benny-wong.jpg" alt="Estudiantes Avanzados luego de la Clase a Puertas Cerradas" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					Estudiantes Avanzados luego de la Clase a Puertas Cerradas
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/entrega-del-centificado-de-la-world-hung-kuen-association.jpg" alt="Recibiendo el certificado de Miembro de La World Hung Kuen Association de manos de mi Sifu" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					Recibiendo el certificado de Miembro de La World Hung Kuen Association de manos de mi Sifu
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
+
+			<!-- Galery Element Start-->
+			<figure class="galery__pic">
+				<img src="../img/galery/sede-central/primer-visita-del-sifu-wong-en-sede-central.jpg" alt="Algunos de los presentes en la primer visita de Sifu Wong a Sede Central" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<figcaption class="galery__pic__caption">
+					Algunos de los presentes en la primer visita de Sifu Wong a Sede Central
+				</figcaption>
+			</figure>
+			<!-- Galery Element End-->
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">

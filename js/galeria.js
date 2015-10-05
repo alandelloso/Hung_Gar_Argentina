@@ -8,6 +8,7 @@ function script() {
 	$('#china-2011').on('click', china2011);
 	$('#sede-central').on('click', sedeCentral);
 	$('#seminario-uruguay').on('click', seminarioUruguay);
+	$('#seminario-hang-che-pang-2014').on('click', seminarioHangChePang);
 	
 }
 
@@ -74,4 +75,8 @@ function sedeCentral() {
 
 function seminarioUruguay() {
 	document.location.href = 'galery/seminario-interdisciplinario-uruguay';
+}
+
+function seminarioHangChePang() {
+	document.location.href = 'galery/seminario-hang-che-pang-2014';
 }

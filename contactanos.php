@@ -53,16 +53,15 @@ header('Content-Type: text/html; charset=utf-8');
 				<p><span class="bold">Sábados:</span> de 10:00 a 13:00</p>
 				<br>
 				<h3>Sihing Gabriel Moschella</h3>
-				<p><span class="bold">Martes:</span> de 10:00 a 11:30</p>
-				<p><span class="bold">Jueves:</span> de 10:00 a 11:30</p>
+				<p><span class="bold">Lunes y Miércoles:</span> de 21:00 a 22:30</p>
+				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
 			</article>
 			<article class="sede__capital card">
 				<h2>Sede Capital</h2>
 				<img src="img/marker.png" alt="marker" class="marker">
 				<a href="https://www.google.com.ar/maps/place/Esteban+de+Luca+2251,+Buenos+Aires,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/@-34.6358471,-58.4022663,17z/data=!3m1!4b1!4m2!3m1!1s0x95bccb111d5d6677:0x967a68a3fa942990" target="_blank">Esteban de Luca 2251</a>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes:</span> de 20:30 a 22:00</p>
-				<p><span class="bold">Jueves:</span> de 20:30 a 22:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 20:30 a 22:00</p>
 				<div class="centerme">
 				<img src="img/bus-icon.png" alt="Colectivos" class="bus" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				</div>

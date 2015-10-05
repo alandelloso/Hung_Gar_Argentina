@@ -35,7 +35,14 @@ header('Content-Type: text/html; charset=utf-8');
 				<h1>Galería</h1>
 
 				<article class="flex-box">
-					
+
+					<article class="galery__item" id="seminario-hang-che-pang-2014">
+						<div class="darker"></div>
+						<img src="img/galery/seminario-hang-che-pang-2014/algunos-movimientos-de-la-forma.jpg" alt="Seminario Hang Che Pang 2014">
+						<p class="galery__item__description">Seminario Hang Che Pang</p>
+						<p class="galery__item__ver">Ver Galería</p>
+					</article>
+
 					<article class="galery__item" id="seminario-uruguay">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-interdisciplinario-uruguay/foto-grupal.jpg" alt="Seminario Uruguay">

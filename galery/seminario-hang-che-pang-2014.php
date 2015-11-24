@@ -57,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 			<!-- Galery Element Start-->
 			<figure class="galery__pic">
-				<img src="../img/galery/seminario-hang-che-pang-2014/formación-inicial.jpg" alt="Participantes Formados para iniciar el Seminario" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
+				<img src="../img/galery/seminario-hang-che-pang-2014/formacion-inicial.jpg" alt="Participantes Formados para iniciar el Seminario" class="galery__pic__img" oncontextmenu='return false' ondragstart='return false' onmousedown='return false'>
 				<figcaption class="galery__pic__caption">
 					Participantes Formados para iniciar el Seminario
 				</figcaption>

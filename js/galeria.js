@@ -1,7 +1,6 @@
 $(document).on('ready', script);
 
 function script() {
-
 	$('.galery__pic').on('click', picAction);
 	$('.screen--black').on('click', picOut);
 	$('#china-2012').on('click', china2012);
@@ -9,7 +8,7 @@ function script() {
 	$('#sede-central').on('click', sedeCentral);
 	$('#seminario-uruguay').on('click', seminarioUruguay);
 	$('#seminario-hang-che-pang-2014').on('click', seminarioHangChePang);
-	
+	$('#seminario-gung-gee-fook-fu-kuen-2015').on('click', seminarioGungGee);
 }
 
 function picAction(event) {
@@ -79,4 +78,8 @@ function seminarioUruguay() {
 
 function seminarioHangChePang() {
 	document.location.href = 'galery/seminario-hang-che-pang-2014';
+}
+
+function seminarioGungGee() {
+	document.location.href = 'galery/seminario-gung-gee-fook-fu-kuen';
 }

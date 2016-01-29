@@ -36,6 +36,13 @@ header('Content-Type: text/html; charset=utf-8');
 
 				<article class="flex-box">
 
+					<article class="galery__item" id="seminario-gung-gee-fook-fu-kuen-2015">
+						<div class="darker"></div>
+						<img src="img/galery/seminario-gunge-gee-fook-fu-kuen/portada.jpg" alt="Seminario Gung Gee Fook Fu Kuen">
+						<p class="galery__item__description">Seminario Gung Gee Fook Fu Kuen</p>
+						<p class="galery__item__ver">Ver Galería</p>
+					</article>
+
 					<article class="galery__item" id="seminario-hang-che-pang-2014">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-hang-che-pang-2014/algunos-movimientos-de-la-forma.jpg" alt="Seminario Hang Che Pang 2014">

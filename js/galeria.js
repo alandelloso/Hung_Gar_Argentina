@@ -3,12 +3,8 @@ $(document).on('ready', script);
 function script() {
 	$('.galery__pic').on('click', picAction);
 	$('.screen--black').on('click', picOut);
-	$('#china-2012').on('click', china2012);
-	$('#china-2011').on('click', china2011);
-	$('#sede-central').on('click', sedeCentral);
-	$('#seminario-uruguay').on('click', seminarioUruguay);
-	$('#seminario-hang-che-pang-2014').on('click', seminarioHangChePang);
-	$('#seminario-gung-gee-fook-fu-kuen-2015').on('click', seminarioGungGee);
+	$('.galery__item').on('click', openGalery);
+
 }
 
 function picAction(event) {
@@ -60,26 +56,8 @@ function picOut() {
 	blackscreen.fadeOut();	
 }
 
-function china2012() {
-	document.location.href = 'galery/china-2012';
-}
-
-function china2011() {
-	document.location.href = 'galery/china-2011';
-}
-
-function sedeCentral() {
-	document.location.href = 'galery/sede-central';
-}
-
-function seminarioUruguay() {
-	document.location.href = 'galery/seminario-interdisciplinario-uruguay';
-}
-
-function seminarioHangChePang() {
-	document.location.href = 'galery/seminario-hang-che-pang-2014';
-}
-
-function seminarioGungGee() {
-	document.location.href = 'galery/seminario-gung-gee-fook-fu-kuen';
+function openGalery(){
+	var thisId = $(this).attr('id');
+	var thisUrl = 'galery/' + thisId;
+	document.location.href = thisUrl;
 }

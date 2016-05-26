@@ -36,6 +36,13 @@ header('Content-Type: text/html; charset=utf-8');
 
 				<article class="flex-box">
 
+					<article class="galery__item" id="seminario-de-sable-2015">
+						<div class="darker"></div>
+						<img src="img/galery/seminario-de-sable-2015/1-sables-listos-para-el-seminario.jpg" alt="Seminario de Sable 2015">
+						<p class="galery__item__description">Seminario de Sable 2015</p>
+						<p class="galery__item__ver">Ver Galería</p>
+					</article>
+
 					<article class="galery__item" id="seminario-gung-gee-fook-fu-kuen-2015">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-gunge-gee-fook-fu-kuen/portada.jpg" alt="Seminario Gung Gee Fook Fu Kuen">
@@ -50,7 +57,7 @@ header('Content-Type: text/html; charset=utf-8');
 						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
-					<article class="galery__item" id="seminario-uruguay">
+					<article class="galery__item" id="seminario-interdisciplinario-uruguay">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-interdisciplinario-uruguay/foto-grupal.jpg" alt="Seminario Uruguay">
 						<p class="galery__item__description">Seminario Uruguay</p>

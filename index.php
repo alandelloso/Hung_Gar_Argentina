@@ -47,8 +47,9 @@ header('Content-Type: text/html; charset=utf-8');
 				<br>
 				<h3>Sihing Gabriel Moschella</h3>
 				<p><span class="bold">Lunes y Miércoles:</span> de 21:00 a 22:30</p>
-				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
 				<br>
+				<h3>Sihing Marcelo Heredia</h3>
+				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
 				<div class="pull-down">
 					<h3>Calle 6 N° 1210 (Entre 57 y 58)</h3>
 					<div id="map-canvas"></div>
@@ -58,10 +59,11 @@ header('Content-Type: text/html; charset=utf-8');
 				<h2>Sede Capital</h2>
 				<figure class="clock__capital"></figure>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes y Jueves:</span> de 20:30 a 22:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 18:00 a 19:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 20:00 a 21:00</p>
 				<br>
 				<div class="pull-down">
-					<h3>Esteban de Luca 2251</h3>
+					<h3>Alberti 1541 3er Piso</h3>
 					<div id="map-canvas2"></div>
 				</div>
 			</article>

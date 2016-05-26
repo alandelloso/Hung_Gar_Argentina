@@ -9,7 +9,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 function initialize(condition) {
 
   var laPlata = new google.maps.LatLng(-34.917748,-57.943246);
-  var capital = new google.maps.LatLng(-34.6358471,-58.4022663);
+  var capital = new google.maps.LatLng(-34.6277967,-58.4000564);
 
   var myOptions1 = {
     zoom: 16,

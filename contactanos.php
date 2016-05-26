@@ -54,19 +54,22 @@ header('Content-Type: text/html; charset=utf-8');
 				<br>
 				<h3>Sihing Gabriel Moschella</h3>
 				<p><span class="bold">Lunes y Miércoles:</span> de 21:00 a 22:30</p>
+				<br>
+				<h3>Sihing Gabriel Moschella</h3>
 				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
 			</article>
 			<article class="sede__capital card">
 				<h2>Sede Capital</h2>
 				<img src="img/marker.png" alt="marker" class="marker">
-				<a href="https://www.google.com.ar/maps/place/Esteban+de+Luca+2251,+Buenos+Aires,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires/@-34.6358471,-58.4022663,17z/data=!3m1!4b1!4m2!3m1!1s0x95bccb111d5d6677:0x967a68a3fa942990" target="_blank">Esteban de Luca 2251</a>
+				<a href="https://www.google.com.ar/maps/place/Gimnasio+Ave+FEnix/@-34.6277923,-58.4022451,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb19551c65df:0xf092fdb2c8c4ea69!8m2!3d-34.6277967!4d-58.4000564" target="_blank">Alberti 1541 3er Piso</a>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes y Jueves:</span> de 20:30 a 22:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 18:00 a 19:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 20:00 a 21:00</p>
 				<div class="centerme">
 				<img src="img/bus-icon.png" alt="Colectivos" class="bus" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				</div>
-				<p>6 - 9 - 25 -  28 -  32 -  50 -  65 -  75 - 91 -  95 - 97 - 101 -  118 -  133 -  134 -  143 -  150 -  188</p>
-				<p><span class="highlight">Línea H:</span> Estación Caseros</p>
+				<p>4 - 6 - 97 - 118 - 143 - 188</p>
+				<p><span class="highlight">Línea H:</span> Estación Inclan</p>
 			</article>
 			</div>
 		</article>

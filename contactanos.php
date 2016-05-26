@@ -53,9 +53,9 @@ header('Content-Type: text/html; charset=utf-8');
 				<p><span class="bold">Sábados:</span> de 10:00 a 13:00</p>
 				<br>
 				<h3>Sihing Gabriel Moschella</h3>
-				<p><span class="bold">Lunes y Miércoles:</span> de 21:00 a 22:30</p>
+				<p><span class="bold">Lunes, Miércoles y Viernes</span> de 21:00 a 22:30</p>
 				<br>
-				<h3>Sihing Gabriel Moschella</h3>
+				<h3>Sihing Marcelo Heredia</h3>
 				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
 			</article>
 			<article class="sede__capital card">

@@ -63,8 +63,7 @@ header('Content-Type: text/html; charset=utf-8');
 				<img src="img/marker.png" alt="marker" class="marker">
 				<a href="https://www.google.com.ar/maps/place/Gimnasio+Ave+FEnix/@-34.6277923,-58.4022451,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb19551c65df:0xf092fdb2c8c4ea69!8m2!3d-34.6277967!4d-58.4000564" target="_blank">Alberti 1541 3er Piso</a>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes y Jueves:</span> de 18:00 a 19:00</p>
-				<p><span class="bold">Martes y Jueves:</span> de 20:00 a 21:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 19:00 a 21:00</p>
 				<div class="centerme">
 				<img src="img/bus-icon.png" alt="Colectivos" class="bus" oncontextmenu='return false' ondragstart='return false' onmousedown='return false' onselectstart='return false'>
 				</div>

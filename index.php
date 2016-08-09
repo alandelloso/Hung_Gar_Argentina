@@ -59,8 +59,7 @@ header('Content-Type: text/html; charset=utf-8');
 				<h2>Sede Capital</h2>
 				<figure class="clock__capital"></figure>
 				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes y Jueves:</span> de 18:00 a 19:00</p>
-				<p><span class="bold">Martes y Jueves:</span> de 20:00 a 21:00</p>
+				<p><span class="bold">Martes y Jueves:</span> de 19:00 a 21:00</p>
 				<br>
 				<div class="pull-down">
 					<h3>Alberti 1541 3er Piso</h3>

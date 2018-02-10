@@ -40,49 +40,42 @@ header('Content-Type: text/html; charset=utf-8');
 						<div class="darker"></div>
 						<img src="img/galery/seminario-de-sable-2015/1-sables-listos-para-el-seminario.jpg" alt="Seminario de Sable 2015">
 						<p class="galery__item__description">Seminario de Sable 2015</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="seminario-gung-gee-fook-fu-kuen-2015">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-gunge-gee-fook-fu-kuen/portada.jpg" alt="Seminario Gung Gee Fook Fu Kuen">
 						<p class="galery__item__description">Seminario Gung Gee Fook Fu Kuen</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="seminario-hang-che-pang-2014">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-hang-che-pang-2014/algunos-movimientos-de-la-forma.jpg" alt="Seminario Hang Che Pang 2014">
 						<p class="galery__item__description">Seminario Hang Che Pang</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="seminario-interdisciplinario-uruguay">
 						<div class="darker"></div>
 						<img src="img/galery/seminario-interdisciplinario-uruguay/foto-grupal.jpg" alt="Seminario Uruguay">
 						<p class="galery__item__description">Seminario Uruguay</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="china-2012">
 						<div class="darker"></div>
 						<img src="img/galery/china-2012/entrenando-en-el-kowloon-park.jpg" alt="Viaje a China 2012">
 						<p class="galery__item__description">Viaje a China 2012</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="china-2011">
 						<div class="darker"></div>
 						<img src="img/galery/china-2011/primera-noche-en-hong-kong.jpg" alt="Viaje a China 2011">
 						<p class="galery__item__description">Viaje a China 2011</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 					<article class="galery__item" id="sede-central">
 						<div class="darker"></div>
 						<img src="img/galery/sede-central/entrenando-wu-dip-dao.jpg" alt="Sede Central">
 						<p class="galery__item__description">Sede Central</p>
-						<p class="galery__item__ver">Ver Galería</p>
 					</article>
 
 				</article>

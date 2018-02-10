@@ -9,7 +9,7 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<meta charset="UTF-8">
 	<!-- Meta Description -->
-	<meta name="description" content="Hung Gar del linaje directo de la familia Lam en Argentina. Sifu Hernán Dell' Oso, miembro de la Wu Hsing Chuan y la World Hung Gar Association." />
+	<meta name="description" content="Hung Gar del linaje directo de la familia Lam en Argentina. Sifu Hernán Dell' Oso, miembro de la Wu Hsing Chuan y la World Hung Kuen Association." />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->

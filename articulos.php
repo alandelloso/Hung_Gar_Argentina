@@ -9,7 +9,7 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<meta charset="UTF-8">
 	<!-- Meta Description -->
-	<meta name="description" content="Sección de Artículos del website de Hung Gar del sifu Hernán Dell' Oso de la escuela Wu Hsing Chuan Argentina" />
+	<meta name="description" content="Sección de Artículos del website de Hung Gar del Sifu Hernán Dell' Oso de la escuela Wu Hsing Chuan Argentina" />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->

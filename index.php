@@ -9,7 +9,7 @@ header('Content-Type: text/html; charset=utf-8');
 <head>
 	<meta charset="UTF-8">
 	<!-- Meta Description -->
-	<meta name="description" content="Hung Gar del linaje directo de la familia Lam en Argentina. Sifu Hernán Dell' Oso, miembro de la Wu Hsing Chuan y la World Hung Gar Association." />
+	<meta name="description" content="Hung Gar del linaje directo de la familia Lam en Argentina. Sifu Hernán Dell' Oso, miembro de la Wu Hsing Chuan y la World Hung Kuen Association." />
 	<!-- Meta Viewport -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
 	<!-- Title -->
@@ -29,44 +29,175 @@ header('Content-Type: text/html; charset=utf-8');
 	<?php include "templates/header.html"; ?>
 	<?php include "templates/navigation.html"; ?>
 	<!-- Content Starts Here -->
-	<main class="centerme">
-		<section class="centralcontainer">
-		<h1>Wu Hsing Chuan</h1>
-		<article class="main-text">
-			<p>La Asociación <span class="highlight">Wu Hsing Chuan</span>, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.</p>
-			<p>Pionera en la difusión del arte marcial tradicional, ha ganado su reconocimiento y reputación tanto a nivel nacional como internacional, con una trayectoria de más de cuatro décadas, en una constante búsqueda de la excelencia, trayendo directamente de la cuna del kung fu, los conocimientos transmitidos por los Maestros de los linajes más directos y reconocidos a nivel mundial, en los cinco sistemas que se difunden en la institución.</p>
-			<p>En el arte marcial tradicional, se habla de familia marcial, y ese es el ambiente en el que se entrena dentro de nuestra escuela, una gran familia a la que se suman constantemente nuevos integrantes, que van incorporando a través de la enseñanza y el ejemplo, disciplina y valores contenidos en los códigos de la ética, dando como resultado personas más saludables e íntegras.</p>
-			<p>Te invitamos a formar parte de esta gran familia y a disfrutar de la práctica de un auténtico arte marcial tradicional y sus invaluables enseñanzas ancestrales.</p>
-		</article>
-		<section class="contacto">
-			<article class="card contacto__la-plata">
-				<h2>Sede La Plata</h2>
-				<figure class="clock__la-plata"></figure>
-				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Sábados:</span> de 10:00 a 13:00</p>
-				<br>
-				<h3>Sihing Gabriel Moschella</h3>
-				<p><span class="bold">Lunes, Miércoles y Viernes:</span> de 21:00 a 22:30</p>
-				<br>
-				<h3>Sihing Marcelo Heredia</h3>
-				<p><span class="bold">Martes y Viernes:</span> de 10:00 a 11:30</p>
-				<div class="pull-down">
-					<h3>Calle 6 N° 1210 (Entre 57 y 58)</h3>
-					<div id="map-canvas"></div>
+	<main>
+		<section class="centerme">
+			<article id="hung-gar-main" class="main-text photo-section">
+				<div class="centralcontainer darker">
+					<h1>Hung Gar</h1>
+					<p>El Hung Gar, que significa "boxeo o puño de la familia Hung", es uno de los estilos pugilísticos más representativos de las artes marciales desarrolladas en el sur de China, se caracteriza por ser un boxeo en el que predominan las técnicas de puño por sobre las de piernas, es de media y corta distancia, sumamente poderoso por su amplio arsenal que se aplica con agresividad y rapidez.</p>
+					<div role="button" class="hg-button" onclick="location.href='hung-gar'">Más Información</div>
 				</div>
 			</article>
-			<article class="card contacto__capital">
-				<h2>Sede Capital</h2>
-				<figure class="clock__capital"></figure>
-				<h3>Sifu Hernán Dell' Oso</h3>
-				<p><span class="bold">Martes y Jueves:</span> de 19:00 a 21:00</p>
-				<br>
-				<div class="pull-down">
-					<h3>Alberti 1541 3er Piso</h3>
-					<div id="map-canvas2"></div>
+			<section class="contacto">
+				<article class="card contacto__capital">
+					<div class="contacto__title">
+						<img src="img/argentina-flag.jpg">
+						<h2>Capital Federal - Argentina</h2>
+					</div>
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/hernan-dell-oso.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Hernán Dell'Oso</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Martes y Jueves</h4>
+								<p>19:00 a 21:00</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Gimnasio Ave Fenix</h4>
+									<p>Alberti 1541 3º</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Alberti+1541,+C1247AAG+CABA,+Argentina/@-34.6278916,-58.4025133,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb1eaa64918b:0xfdfebd83d8c5abfb!8m2!3d-34.6278916!4d-58.4003246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/hernan-dell-oso.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Hernán Dell'Oso (Kids)</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Martes y Jueves</h4>
+								<p>19:00 a 20:00</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Gimnasio Ave Fenix</h4>
+									<p>Alberti 1541 3º</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Alberti+1541,+C1247AAG+CABA,+Argentina/@-34.6278916,-58.4025133,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb1eaa64918b:0xfdfebd83d8c5abfb!8m2!3d-34.6278916!4d-58.4003246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+				</article>
+				<article class="card contacto__la-plata">
+					<div class="contacto__title">
+						<img src="img/argentina-flag.jpg">
+						<h2>La Plata - Argentina</h2>
+					</div>
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/marcelo-heredia.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Marcelo Heredia</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Lunes, Miércoles y Viernes</h4>
+								<p>09:00 a 10:30</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Sede Central</h4>
+									<p>Calle 6 N° 1210</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Escuela+Kung+Fu+Tradicional+.+Wu+Hsing+Chuan/@-34.917748,-57.9454347,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcccb80c1d3a2f:0x985bf32ff1915557!8m2!3d-34.917748!4d-57.943246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/marcelo-heredia.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Marcelo Heredia</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Martes y Jueves</h4>
+								<p>10:00 a 12:00</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Sede Central</h4>
+									<p>Calle 6 N° 1210</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Escuela+Kung+Fu+Tradicional+.+Wu+Hsing+Chuan/@-34.917748,-57.9454347,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcccb80c1d3a2f:0x985bf32ff1915557!8m2!3d-34.917748!4d-57.943246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/marcelo-heredia.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Marcelo Heredia</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Sábado</h4>
+								<p>10:00 a 13:00</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Sede Central</h4>
+									<p>Calle 6 N° 1210</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Escuela+Kung+Fu+Tradicional+.+Wu+Hsing+Chuan/@-34.917748,-57.9454347,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcccb80c1d3a2f:0x985bf32ff1915557!8m2!3d-34.917748!4d-57.943246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+					<!-- INICIO SEDE -->
+					<div class="contacto__clase">
+						<div class="contacto__clase__img">
+							<img src="img/profile/gabriel-moschella.jpg"></img>
+						</div>
+						<div class="contacto__clase__right">
+							<h3>Gabriel Moschella</h3>
+							<div class="contacto__clase__right__horarios">
+								<h4>Lunes, Miércoles y Viernes</h4>
+								<p>21:00 a 22:30</p>
+							</div>
+							<div class="contacto__clase__right__direccion">
+								<div class="contacto__clase__right__direccion__texto">
+									<h4>Sede Central</h4>
+									<p>Calle 6 N° 1210</p>
+								</div>
+								<div class="contacto__clase__right__direccion__imagen" onclick="window.open('https://www.google.com.ar/maps/place/Escuela+Kung+Fu+Tradicional+.+Wu+Hsing+Chuan/@-34.917748,-57.9454347,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcccb80c1d3a2f:0x985bf32ff1915557!8m2!3d-34.917748!4d-57.943246')">
+									<img src="img/google-maps.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- FIN SEDE -->
+				</article>
+			</section>
+			<article id="wu-hsing-chuan-main" class="main-text photo-section">
+				<div class="centralcontainer darker">
+					<h1>Wu Hsing Chuan</h1>
+					<p>La Asociación Wu Hsing Chuan, es una entidad dedicada al estudio, desarrollo y promoción de las auténticas artes marciales tradicionales chinas, preservándolas para las generaciones futuras.</p>
+					<p>Pionera en la difusión del arte marcial tradicional, ha ganado su reconocimiento y reputación tanto a nivel nacional como internacional, con una trayectoria de más de cuatro décadas, en una constante búsqueda de la excelencia, trayendo directamente de la cuna del kung fu, los conocimientos transmitidos por los Maestros de los linajes más directos y reconocidos a nivel mundial, en los cinco sistemas que se difunden en la institución.</p>
+					<div role="button" class="hg-button" onclick="window.open('http://www.wuhsingchuan.com.ar')">Más Información</div>
 				</div>
 			</article>
-		</section>
 		</section>
 	</main>
 	<!-- Content Finish Here -->
